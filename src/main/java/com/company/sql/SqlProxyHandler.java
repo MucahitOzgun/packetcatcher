@@ -106,7 +106,8 @@ public class SqlProxyHandler extends ChannelInboundHandlerAdapter{
 
 		
 
-     	System.in.read();
+		 Scanner in = new Scanner(System.in);
+		 in.nextLine();
 
 		
 		
